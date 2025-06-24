@@ -1,4 +1,5 @@
 ./_quarto.yml
+.requirements.yml
 ./docker/Dockerfile
 ./renv.lock
 ./renv/*
