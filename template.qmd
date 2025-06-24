@@ -4,7 +4,12 @@ author: ""
 format:
   html:
     code-fold: true
+    theme: united
 jupyter: python3
+execute: 
+  enabled: true
+  cache: true
+  freeze: auto
 ---
 
 # Set-up 
@@ -17,6 +22,9 @@ import matplotlib.pyplot as plt
 # Core scverse libraries
 # import scanpy as sc
 # import anndata as ad
+
+# Session information
+import session_info
 ```
 
 # Background
@@ -54,3 +62,7 @@ please see attached list of the samples we sequenced with the following info:
 
 
 # Session Information
+
+```{python}
+session_info.show()
+```
