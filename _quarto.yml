@@ -1,0 +1,3 @@
+project:
+  type: default
+  pre-render:  Rscript -e "renv::activate(); renv::restore()"
