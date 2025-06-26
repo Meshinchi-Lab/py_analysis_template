@@ -1,1 +1,2 @@
 ./template.qmd export-ignore
+./_quarto.yml export-ignore
